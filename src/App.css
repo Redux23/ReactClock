@@ -21,8 +21,8 @@
   margin: 10px;
   background-position: inherit;} */
 
-.App-header {
-  background-color: blueviolet;
+/* .App-header {
+  background-color: white;
   min-height: 100vmin;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@
   font-size: calc(10px + 3vmin);
   color: black;
   text-align: center;
-}
+} */
 
 .h3 {
   padding: 40px; 
@@ -40,10 +40,12 @@
 
 .App-field {  
   background-color: whitesmoke;
-  width: 550px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   font-size: 20px;
-  padding: 80px;
+  padding: 50px;
+  margin-left: 400px;
+
   
 }
 

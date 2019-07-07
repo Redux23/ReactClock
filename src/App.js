@@ -1,11 +1,12 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
+//  import logo from './logo.svg';
 // import Bright from './components/Bright'
 // import Button from 'react-bootstrap/Button';
 // import Form from 'react-bootstrap/Form'
-import Clock from './components/clock'
-// import Login from './components/Login'
+// import Clock from './components/clock/clock.js'
+// import Login from './components/Login';
+// import Blog from './Blog';
 import Route from './components/auth/Route'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <div className="App-header">
       {/* <Login></Login> */}
       <Route></Route>
+      {/* <Clock></Clock> */}
     </div> 
 
    

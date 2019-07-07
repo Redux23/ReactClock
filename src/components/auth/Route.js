@@ -1,16 +1,22 @@
 import React from 'react'
 import { BrowserRouter as Router, Route} from "react-router-dom";
 import Login from '../auth/Login';
-import Register from './Register'
+import Register from './Register';
+import Blog from './Blog'
+import Layout from '../layout';
+
 
 
 
 const CustomRouter = () => {
    return (
        <Router>
-           {/* <Route path='/' component={}></Router> */}
-           <Route path='/Login/' component={Login}></Route>
-           <Route path='/Register/' component={Register}></Route>
+           <Layout>
+           {/* <Route path='/' component={Blog}></Route> */}
+           <Route path='/login/' component={Login}></Route>
+           <Route path='/register/' component={Register}></Route>
+           <Route path='/Blog/' component={Blog}></Route>
+           </Layout>
        </Router>
    )
 }
